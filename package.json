@@ -1,0 +1,31 @@
+{
+  "name": "homium-lib",
+  "version": "1.0.0",
+  "description": "This is the Homium Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Homium",
+    "library",
+    "homiumlib",
+    "homium library"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VoDACode/homium-lib.git"
+  },
+  "author": "VoDACode",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.18",
+    "@types/node": "^20.6.3",
+    "ts-node-dev": "^2.0.0",
+    "typescript-node": "^0.1.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0"
+  }
+}

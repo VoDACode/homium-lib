@@ -1,0 +1,1 @@
+export type DatabaseServiceEvents = 'ready' | 'error' | 'close' | 'reconnecting' | 'reconnected' | 'disconnected' | 'timeout'; 

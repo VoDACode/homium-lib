@@ -1,0 +1,1 @@
+export type ExtensionEvents = 'add' | 'remove' | 'reload' | 'error' | 'edit';
