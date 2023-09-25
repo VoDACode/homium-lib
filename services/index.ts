@@ -11,6 +11,8 @@ import { IScriptService } from "./IScriptService";
 import { ISectorService } from "./ISectorService";
 import { ISystemService } from "./ISystemService";
 
+import serviceManager from "./ServiceManager";
+
 export {
     BaseService,
     IBaseService,
@@ -24,4 +26,8 @@ export {
     IScriptService,
     ISectorService,
     ISystemService
+}
+
+export {
+    serviceManager
 }

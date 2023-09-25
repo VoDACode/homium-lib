@@ -1,6 +1,6 @@
 import { NextFunction, Response, Request } from "express";
 import { IConfigService, IDatabaseService } from "../services";
-import serviceManager from "../service.manager";
+import serviceManager from "../services/ServiceManager";
 import { BotModel, SessionModel, UserModel } from "../models";
 import { ClientPermissions } from "../models/permission.model";
 

@@ -1,5 +1,5 @@
 import path from "path";
-import serviceManager from "./service.manager";
+import serviceManager from "./services/ServiceManager";
 import { IExtensionsService } from "./services/IExtensionsService";
 import { ILogger } from "./services/ILogger";
 import { ScriptArgument } from "./types/script.types";
